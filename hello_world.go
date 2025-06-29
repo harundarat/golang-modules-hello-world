@@ -1,5 +1,5 @@
 package golangmoduleshelloworld
 
-func HelloWorld() string {
-	return "Hello World v2"
+func HelloWorld(name string) string {
+	return "Hello World for " + name
 }
